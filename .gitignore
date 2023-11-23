@@ -1,0 +1,24 @@
+# filedir
+
+
+# file
+*.mp4
+*.zip
+*.exe
+
+
+.vscode/
+
+*.S
+*.o
+*.o.d
+*.sim
+*.elf
+*.map
+*.log
+*.dasm
+*.dump
+*.hex
+*.srec
+*.verilog
+

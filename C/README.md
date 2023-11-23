@@ -2,6 +2,6 @@
 # just for test
 
 
-/*请使用下面命令编译，否则会乱码*/
+# graph compile
 # gcc -fexec-charset=GBK xxx.file -o xxx
 
