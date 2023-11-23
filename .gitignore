@@ -1,13 +1,12 @@
 # filedir
-
+.vscode/
 
 # file
 *.mp4
 *.zip
 *.exe
+*.out
 
-
-.vscode/
 
 *.S
 *.o
