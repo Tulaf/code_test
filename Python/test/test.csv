@@ -1,0 +1,10 @@
+Offset,Block,Register,Filed,Field_Offset,Width,Default,Access,Description,HW_Access,Condition,header_alias,Rst_Table_Widths,Reg_Full_Name,Reg_Detail,Reg_Note,Reg_Ignore
+0x0000,BUS_FAB,,,,32,,,,,,,,,,,
+0x0000,,ECCP_IRQEN,,,,,,,,,,,,,,
+,,,IRQEN,0,1,0x0,RW,,icb,,,,,,,
+0x0004,,ECCP_ERRFLG,,,,,,,icb,,,,,,,
+,,,ERRFLG,0,1,0x0,RW,,icb,,,,,,,
+0x0008,,ECCP_CTRL,,,,,,,icb,,,,,,,
+,,,CHK_EN,0,2,0x2,RW,,icb,,,,,,,
+,,,EINJ_EN,3,1,0x0,RW,,icb,,,,,,,
+,,,EINJ_POS,4,7,0x0,RW,,icb,,,,,,,
